@@ -39,6 +39,9 @@ Note: as of this time (2019-11-07), you will need the development version of Tin
 
 <img src="./img/digitalclock-pinetime.jpg" alt="PineTime running the digital clock example" width="327"/>
 
+####using a stlink instead of a jlink
+`tinygo flash -target=pinetime-devkit0-stlink.json github.com/aykevl/go-smartwatch/examples/digitalclock`
+
 ## Linux simulation
 
 All features of this toolkit have been implemented for Linux as well, returning
